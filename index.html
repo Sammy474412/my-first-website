@@ -1,98 +1,104 @@
-<!DOCTYPE html>
+
+   <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sammy Tech Services</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
     body {
       margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
+      font-family: Arial, sans-serif;
       background: #f4f6f8;
       color: #333;
     }
-
     header {
       background: #0d6efd;
       color: white;
-      padding: 40px 20px;
+      padding: 30px;
       text-align: center;
     }
-
-    header h1 {
-      margin: 0;
-      font-size: 2.5rem;
-    }
-
-    header p {
-      font-size: 1.1rem;
-      margin-top: 10px;
-    }
-
     section {
+      padding: 30px;
       max-width: 900px;
-      margin: 40px auto;
-      padding: 0 20px;
+      margin: auto;
     }
-
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
     .card {
       background: white;
-      padding: 25px;
+      padding: 20px;
       border-radius: 10px;
-      margin-bottom: 20px;
       box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      text-align: center;
     }
-
-    h2 {
-      color: #0d6efd;
+    .btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 12px 20px;
+      background: #0d6efd;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
     }
-
+    .btn:hover {
+      background: #084298;
+    }
     footer {
+      background: #222;
+      color: white;
       text-align: center;
       padding: 20px;
-      background: #222;
-      color: #ccc;
       margin-top: 40px;
     }
   </style>
 </head>
+
 <body>
 
-  <header>
-    <h1>Sammy Tech Services</h1>
-    <p>Simple Websites • Online Support • Digital Solutions</p>
-  </header>
+<header>
+  <h1>Sammy Tech Services</h1>
+  <p>Web • Tech Support • Digital Solutions</p>
+  <a class="btn" href="https://wa.me/234 070-649-63905" target="_blank">
+    Chat on WhatsApp
+  </a>
+</header>
 
-  <section>
+<section>
+  <h2>Our Services</h2>
+  <div class="services">
     <div class="card">
-      <h2>About Me</h2>
-      <p>
-        I am a beginner tech enthusiast building simple and clean websites.
-        I help individuals and small businesses get online quickly and affordably.
-      </p>
+      <h3>Website Design</h3>
+      <p>Modern websites for businesses & individuals.</p>
     </div>
-
     <div class="card">
-      <h2>Services</h2>
-      <ul>
-        <li>Simple business websites</li>
-        <li>Personal portfolio websites</li>
-        <li>Website setup & deployment</li>
-        <li>Basic tech support</li>
-      </ul>
+      <h3>Computer Training</h3>
+      <p>Basic computer & typing training.</p>
     </div>
-
     <div class="card">
-      <h2>Contact</h2>
-      <p>Email: sammytech@example.com</p>
-      <p>WhatsApp: +234 07064963905</p>
+      <h3>Tech Support</h3>
+      <p>Phone & laptop troubleshooting.</p>
     </div>
-  </section>
+  </div>
+</section>
 
-  <footer>
-    © 2026 Sammy Tech Services. All rights reserved.
-  </footer>
+<section>
+  <h2>Why Choose Us?</h2>
+  <p>
+    We provide affordable, reliable, and fast tech solutions to help
+    individuals and small businesses grow.
+  </p>
+</section>
+
+<footer>
+  <p>© 2026 Sammy Tech Services</p>
+</footer>
 
 </body>
 </html>
-
+    
+      

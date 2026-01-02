@@ -1,96 +1,97 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sammy Tech Services</title>
-
   <style>
     body {
-      background-color: #0f172a;
-      color: white;
-      font-family: Arial, sans-serif;
       margin: 0;
-      padding: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f4f6f8;
+      color: #333;
     }
 
     header {
-      background-color: #020617;
-      padding: 20px;
+      background: #0d6efd;
+      color: white;
+      padding: 40px 20px;
       text-align: center;
     }
 
     header h1 {
-      color: #38bdf8;
       margin: 0;
+      font-size: 2.5rem;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      margin-top: 10px;
     }
 
     section {
-      padding: 40px;
-      text-align: center;
-    }
-
-    .services {
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-      flex-wrap: wrap;
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
     }
 
     .card {
-      background-color: #020617;
-      padding: 20px;
+      background: white;
+      padding: 25px;
       border-radius: 10px;
-      width: 250px;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     }
 
-    button {
-      margin-top: 20px;
-      padding: 12px 25px;
-      font-size: 16px;
-      border: none;
-      border-radius: 8px;
-      background-color: #22c55e;
-      color: white;
-      cursor: pointer;
+    h2 {
+      color: #0d6efd;
     }
 
     footer {
-      background-color: #020617;
       text-align: center;
-      padding: 15px;
-      font-size: 14px;
-      color: #94a3b8;
+      padding: 20px;
+      background: #222;
+      color: #ccc;
+      margin-top: 40px;
     }
   </style>
 </head>
-
 <body>
 
-<header>
-  <h1>Sammy Tech Services</h1>
-  <p>Simple • Fast • Reliable</p>
-</header>
+  <header>
+    <h1>Sammy Tech Services</h1>
+    <p>Simple Websites • Online Support • Digital Solutions</p>
+  </header>
 
-<section>
-  <h2>we give the best tech experence</h2>
+  <section>
+    <div class="card">
+      <h2>About Me</h2>
+      <p>
+        I am a beginner tech enthusiast building simple and clean websites.
+        I help individuals and small businesses get online quickly and affordably.
+      </p>
+    </div>
 
-  <div class="services">
-    <div class="card">Typing & Document Formatting</div>
-    <div class="card">Online Registrations</div>
-    <div class="card">Basic Website Creation</div>
-  </div>
+    <div class="card">
+      <h2>Services</h2>
+      <ul>
+        <li>Simple business websites</li>
+        <li>Personal portfolio websites</li>
+        <li>Website setup & deployment</li>
+        <li>Basic tech support</li>
+      </ul>
+    </div>
 
-  <button onclick="contact()">Contact Me</button>
-</section>
+    <div class="card">
+      <h2>Contact</h2>
+      <p>Email: sammytech@example.com</p>
+      <p>WhatsApp: +234 XXX XXX XXXX</p>
+    </div>
+  </section>
 
-<footer>
-  © 2026 Sammy Tech Services
-</footer>
-
-<script>
-  function contact() {
-    alert("Call or WhatsApp: 070-649-639-05");
-  }
-</script>
+  <footer>
+    © 2026 Sammy Tech Services. All rights reserved.
+  </footer>
 
 </body>
 </html>
